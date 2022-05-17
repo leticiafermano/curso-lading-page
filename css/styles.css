@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-bottom: 500px;
+}
+
 /* Event form */
 #event-subscription {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./../img/hrz-5.jpg');
@@ -38,9 +42,9 @@
 
 #disclaimer .about-event {
     font-size: 2em;
-    text-transform: uppercase; /*Caixa alta*/
+    text-transform: uppercase;
     max-width: 350px;
-    font-weight: bold; /*Negrito*/
+    font-weight: bold;
     margin-bottom: 1em;
 }
 
@@ -98,4 +102,12 @@
 
 .btn:hover {
     opacity: 1;
+}
+
+/*Benefits section*/
+#key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
 }
